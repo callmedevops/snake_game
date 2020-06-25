@@ -6,7 +6,7 @@ g++ -c main.cpp Snake.cpp && g++ main.o Snake.o -o sfml-app -lsfml-graphics -lsf
 
 To execute the exe, just do the following : (the number after is the level)
 
-./sfml-app 1
+./sfml-app
 
 
 ![Alt Text](snake.gif)
