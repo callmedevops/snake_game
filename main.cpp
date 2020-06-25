@@ -26,18 +26,17 @@ int main(int argc, char *argv[])
         level=atoi(argv[1]);
         if(level>5)
         {
-          print("Trust me, you're in deep shit");
+          print("Danger level");
         }
         if(level>20)
         {
           print("Max level is 20");
-          print("Trust me, you're in deep shit");
         }
       }
     }
     catch(int e)
     {
-      cout<<"Erreur de conversion"<<endl;
+      cout<<"Conversion error"<<endl;
     }
 
     sf::RenderWindow window(sf::VideoMode(width, height), "Snake");
